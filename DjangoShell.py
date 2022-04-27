@@ -16,6 +16,7 @@ t = Topic.objects.get(id=1)
 print(t.text)
 print(t.date_added)
 
+
 entries = t.entry_set.all()
 
 for e in entries:
